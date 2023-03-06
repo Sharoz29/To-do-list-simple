@@ -1,0 +1,63 @@
+body {
+  background-color: #1b8f8f;
+  color: white;
+  font-family: "golos-text", sans-serif;
+  line-height: 20px;
+}
+.daily-tasks-list {
+  padding-top: 10px;
+}
+.input {
+  height: 30px;
+  border-radius: 30px;
+  width: 250px;
+  font-size: 16px;
+  color: #02648e;
+  background-color: white;
+  border-color: white;
+}
+.submit {
+  /* padding: 10px; */
+  height: 40px;
+  border-radius: 30px;
+  width: 80px;
+  background-color: #145f80;
+  color: white;
+  border: none;
+}
+.deletebtn {
+  height: 30px;
+  border-radius: 30px;
+  width: 60px;
+  background-color: #145f80;
+  color: white;
+  border: none;
+  /* margin-bottom: 10px; */
+}
+.done {
+  text-decoration: line-through;
+}
+.updatebtn {
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 30px;
+  width: 60px;
+  background-color: #145f80;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.itemedit {
+  display: block;
+}
+.list {
+  padding: 10px;
+  /* display: block; */
+  border: 1px solid white;
+  width: 350px;
+  text-align: center;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
